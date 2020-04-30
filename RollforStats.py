@@ -35,3 +35,8 @@ for key,value  in StartingStats.items(): # print the keys of StartingStats
     print("Your three highest rolls were {}, for a total of {}.".format(rolls,total))
     #### STUCK HERE ###
     #need to update the value of the dictionary key to the total variable
+    StartingStats[key] = total
+
+print("\n\nYor stats are:\n")
+for key,value  in StartingStats.items(): # print the keys and values of StartingStats
+    print("{} = {}".format(key, value))
