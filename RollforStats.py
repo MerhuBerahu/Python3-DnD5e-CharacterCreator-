@@ -14,13 +14,24 @@ def roll6():
 StartingStats = {'Strength': 0,'Dexterity': 0,'Constitution':0 ,'Intelligence':0 ,'Wisdom': 0, 'Charisma': 0}
 
 num = 0
-for key,value  in StartingStats.items(): # print the keys and values of PBStartingStats
+for key,value  in StartingStats.items(): # print the keys of StartingStats
     num = num + 1
-    print(num,"- {} = {}".format(key, value))
-    print("your rolls were: ")
-    count =  0
+    print(num,"- {} ".format(key))
+    count =  0  
+    rolls = []  # create the list of roll results
+
     while count < 4:
-        rolls = (roll6())
-        print(" you rolled a ",rolls)
+        rolls.append(roll6())
         count += 1
-        print("Your three highest rolls were {}, for a total of {}.")
+    rolls.sort() # sort rolls into ascending order
+
+    print("You rolled: ",rolls)
+    rolls.pop(0) # drop the first (lowest) number in rolls
+
+    total = 0
+    for i in rolls: 
+        total = total + i
+
+    print("Your three highest rolls were {}, for a total of {}.".format(rolls,total))
+    #### STUCK HERE ###
+    #need to update the value of the dictionary key to the total variable
