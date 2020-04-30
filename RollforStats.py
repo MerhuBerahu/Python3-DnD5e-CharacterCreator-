@@ -16,7 +16,7 @@ StartingStats = {'Strength': 0,'Dexterity': 0,'Constitution':0 ,'Intelligence':0
 num = 0
 for key,value  in StartingStats.items(): # print the keys of StartingStats
     num = num + 1
-    print(num,"- {} ".format(key))
+    print("\n",num,"- {} ".format(key))
     count =  0  
     rolls = []  # create the list of roll results
 
