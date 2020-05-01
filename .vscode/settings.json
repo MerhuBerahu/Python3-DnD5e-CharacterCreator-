@@ -11,5 +11,5 @@
     /** Pyformat use it's own code action to prevent confliction with other tools. */
     "source.organizeImports.pyformat": true
   },
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "autopep8"
 }
