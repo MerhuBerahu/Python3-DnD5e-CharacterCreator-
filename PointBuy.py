@@ -7,7 +7,7 @@ applying racial increases. You can’t have a score lower than 8.
 Returns:
     [dictionary] -- [returns a dictionary of character stats]
 """
-
+##
 
 def checkIntValue():
     """Check if an input is and integer(not a chr/str) within a specific range"""
