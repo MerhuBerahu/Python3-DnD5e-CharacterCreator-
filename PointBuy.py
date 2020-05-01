@@ -41,7 +41,7 @@ def buy_stats():
 
         num = 0
         for key,value in PBStartingStats.items(): # print the keys and values of PBStartingStats
-            num = num + 1
+            num += 1
             print(F"{num} - {key} = {value}")
             
         selection = check_input() # sends users input to check_input() to ensure its a valid option

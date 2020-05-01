@@ -1,6 +1,6 @@
 {
     "Dwarf": {
-        "name": "Dwarf",
+        "Name": "Dwarf",
         "Description": "Description",
         "Modifiers": "+2 CON",
         "Alignment": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
@@ -8,5 +8,15 @@
         "Size": " Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
         "Speed": "Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
         "Vision": "Darkvision: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    "Human": {
+        "Name": "Human",
+        "Description": "Description",
+        "Modifiers": "Your ability scores each increase by 1.",
+        "Alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+        "Longevity": "Humans reach adulthood in their late teens and live less than a century.",
+        "Size": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+        "Speed": "Your base walking speed is 30 feet.",
+        "Vision": "None"
     }
 }
