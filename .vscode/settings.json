@@ -1,7 +1,7 @@
 {
   "python.pythonPath": "C:\\Users\\wmclaughlan\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
   "python.linting.pycodestyleEnabled": true,
-  "python.formatting.autopep8Path": "c:\\users\\wmclaughlan\\appdata\\roaming\\python\\python37\\site-packages (1.5.2)",
+  "python.formatting.autopep8Path": "C:\\Users\\wmclaughlan\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\autopep8.py",
   "python.linting.pycodestyleEnabled": true,
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
