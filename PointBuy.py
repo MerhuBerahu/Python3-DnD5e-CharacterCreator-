@@ -35,7 +35,7 @@ def buyStats():
         print("\nWhich Stat do you want to increase?")
 
         num = 0
-        for key,value  in PBStartingStats.items(): # print the keys and values of PBStartingStats
+        for key,value in PBStartingStats.items(): # print the keys and values of PBStartingStats
             num = num + 1
             print(num,"- {} = {}".format(key, value))
             
