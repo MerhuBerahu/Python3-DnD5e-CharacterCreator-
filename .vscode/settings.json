@@ -1,3 +1,15 @@
 {
-    "python.pythonPath": "C:\\Users\\wmcla\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+  "python.pythonPath": "C:\\Users\\wmclaughlan\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+  "python.linting.pycodestyleEnabled": true,
+  "python.formatting.autopep8Path": "c:\\users\\wmclaughlan\\appdata\\roaming\\python\\python37\\site-packages (1.5.2)",
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  /** Enable format on save */
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    /** Pyformat use it's own code action to prevent confliction with other tools. */
+    "source.organizeImports.pyformat": true
+  },
+  "python.formatting.provider": "black"
 }
