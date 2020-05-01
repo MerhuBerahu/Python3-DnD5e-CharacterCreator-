@@ -1,6 +1,3 @@
-
-
-
 def check_input(min_value, max_value):
     '''Check if an input is and integer(not a chr/str) within a specific range'''
 
