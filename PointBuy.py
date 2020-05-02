@@ -7,6 +7,7 @@ Using this method, 15 is the highest ability score you can
 end up with, before applying racial increases. You can’t 
 have a score lower than 8.
 """
+#TODO stuff1
 
 
 def check_input():

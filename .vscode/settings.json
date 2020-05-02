@@ -11,5 +11,24 @@
     /** Pyformat use it's own code action to prevent confliction with other tools. */
     "source.organizeImports.pyformat": true
   },
-  "python.formatting.provider": "autopep8"
+  "python.formatting.provider": "autopep8",
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text",
+    "foreground": "red",
+    "background": "white",
+    "opacity": 50,
+    "iconColour": "blue"
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "type": "line"
+    },
+    "FIXME": {
+      "foreground": "black",
+      "iconColour": "yellow",
+      "gutterIcon": true
+    }
+  }
 }

@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 """Display race information and select a race
 """
+#TODO stuff
+
 
 import json
 from Systems import check_input
@@ -28,6 +30,12 @@ from the Json
         chosen_race = race_choices[selection]
         for i in race_list[chosen_race].values():
             print(i,"\n")
+        choice = input("Type 'back' to go back to the race menu to look at another Race 1or 'continue' if you are happy to choose a race now.\n")
+        if choice in ("back", "Back", "b", "B"):
+            race_info()
+        elif choice in ("continue", "continue"):
+            race_selection()
+
 
 def race_selection():
     print("Which Race would you like to be?")
@@ -45,4 +53,3 @@ def race_selection():
     return chosen_race 
 
 race_info()
-race_selection()
