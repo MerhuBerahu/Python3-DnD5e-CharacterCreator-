@@ -4,7 +4,7 @@ A Character Creator for Dungeons and Dragons fifth edition, written in Python 3.
 
 ![alt text](https://i.imgur.com/yZIE1jY.png)
 
-![alt text](https://i.imgur.com/RA1itpE.png)
+![alt text](https://i.imgur.com/4jfOBjm.png)
 
 
 ## Getting Started
