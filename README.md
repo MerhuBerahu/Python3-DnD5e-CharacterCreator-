@@ -2,6 +2,10 @@
 
 A Character Creator for Dungeons and Dragons fifth edition, written in Python 3. Races, Classes etc are all read in from easily read JSON files, kaing the whole thing extensible, alowing users to easily add in their own races and so on
 
+![alt text](https://i.imgur.com/yZIE1jY.png)
+
+![alt text](https://i.imgur.com/RA1itpE.png)
+
 
 ## Getting Started
 
