@@ -17,15 +17,15 @@ def check_input(min_value, max_value):
             else: 
                 return (intTarget)
 
-with open("Jsons\\races.json", encoding="utf8") as test:  #open races.json as test
-    race = json.load(test)
+with open("Jsons\\classes.json", encoding="utf8") as test:  #open races.json as test
+    race_list = json.load(test)
 
 print("Which Race would you like to know more about?")
 
 races = {}
-for index, item in enumerate(race, 1):
+for index, item in enumerate(race_list, 1):
     print(index, item)  #Print Numbers list of items in races.json
-    dict1 = {index:item}
+    dict1 = {index: item}
     races.update(dict1)
 
 selection = check_input(1, 2)
@@ -37,11 +37,11 @@ if selection in races:
     
 
 
-print("Which Race would you like to know more about?")
+""" print("Which Race would you like to know more about?")
 
 num = 0
 races = {}
-for item in race:
+for item in race_list:
     num += 1
     dict1 = {num: item}
     races.update(dict1)
@@ -54,6 +54,6 @@ if selection in races:
     print(race_list[chosen_race].items())
     print(race_list[chosen_race].values())
 
-
+ """
 
 

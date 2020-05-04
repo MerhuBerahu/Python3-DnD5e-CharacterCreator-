@@ -30,5 +30,6 @@
       "iconColour": "yellow",
       "gutterIcon": true
     }
-  }
+  },
+  "todo-tree.tree.scanMode": "workspace"
 }

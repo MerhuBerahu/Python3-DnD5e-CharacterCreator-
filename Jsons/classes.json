@@ -1,0 +1,22 @@
+{
+    "Barbarian": {
+        "Name": "Barbarian",
+        "Description": "A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people’s elk herd.  \\n\\nA half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals. \\n\\n Frothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.  \nThese barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
+        "Modifiers": "+2 CON",
+        "Alignment": "Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.",
+        "Longevity": "Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.",
+        "Size": " Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.",
+        "Speed": "Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.",
+        "Vision": "Darkvision: Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    "Human": {
+        "Name": "Human",
+        "Description": "Description",
+        "Modifiers": "Your ability scores each increase by 1.",
+        "Alignment": "Humans tend toward no particular alignment. The best and the worst are found among them.",
+        "Longevity": "Humans reach adulthood in their late teens and live less than a century.",
+        "Size": "Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.",
+        "Speed": "Your base walking speed is 30 feet.",
+        "Vision": "None"
+    }
+}
