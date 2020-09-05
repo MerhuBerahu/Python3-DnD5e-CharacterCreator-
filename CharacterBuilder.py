@@ -1,5 +1,5 @@
 
-# choose name
+# choose name - Done
 # choose starting stats type
 # choose race
 # choose background

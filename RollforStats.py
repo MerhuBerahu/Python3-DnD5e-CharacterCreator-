@@ -6,8 +6,13 @@ three dice on a piece of scratch paper. Do this five more
 times, so that you have six numbers.
 """
 
+<<<<<<< HEAD
 import random
 from DieRolls import roll
+=======
+from DieRolls import roll6
+
+>>>>>>> ea0c0542ea0456a71d112ad6bdc17b3b33be84fd
 
 def stats_roll():
     """ creates 4 random int's between 1 and 6 for each
@@ -42,5 +47,5 @@ def stats_roll():
     for key, value in starting_stats.items():  # print the keys and values of starting_stats
         print(F"{key} = {value}")
 
-#Testing
+# Testing
 stats_roll()
