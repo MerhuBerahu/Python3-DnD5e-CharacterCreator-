@@ -7,11 +7,7 @@ times, so that you have six numbers.
 """
 
 import random
-
-def roll6():
-    """Creates a random int between 1 and 6"""
-    number = random.randint(1,6)
-    return number
+from DieRolls import roll
 
 def stats_roll():
     """ creates 4 random int's between 1 and 6 for each
@@ -28,7 +24,7 @@ def stats_roll():
         rolls = []  # create the list of roll results
 
         while count < 4:
-            rolls.append(roll6())
+            rolls.append(roll())
             count += 1
         rolls.sort()  # sort rolls into ascending order
 
